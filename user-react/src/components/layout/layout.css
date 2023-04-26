@@ -1,0 +1,34 @@
+.layout {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  .layout .navbar {
+    min-height: 60px;
+    background-color: #044599;
+  }
+  
+  .layout .footer {
+    min-height: 60px;
+    background-color: rgb(241 245 249) ;
+    padding: 20px 0 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .layout .content {
+    width: 100%;
+  }
+  .invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+  }
+  
+  .invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+  }
+  
+  .invalid .error-text {
+    color: #b40e0e;
+  }
